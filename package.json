@@ -5,7 +5,8 @@
   "author": "Aysy",
   "license": "MIT",
   "devDependencies": {
-    "vuepress": "^1.9.8"
+    "vuepress": "^1.9.8",
+    "vuepress-plugin-nuggets-style-copy": "^1.0.3"
   },
   "scripts": {
     "docs:dev": "SET NODE_OPTIONS=--openssl-legacy-provider && vuepress dev docs",

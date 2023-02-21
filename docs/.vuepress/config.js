@@ -7,6 +7,14 @@ module.exports = {
       lang: 'zh-CN'
     }
   },
+  plugins: [
+	["vuepress-plugin-nuggets-style-copy", {
+      copyText: "复制",
+      tip: {
+          content: "复制成功"
+      }
+   }]
+],
 	themeConfig: {
 		 
 		lastUpdated: '最近更新',

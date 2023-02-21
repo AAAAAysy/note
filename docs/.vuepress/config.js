@@ -1,3 +1,4 @@
+
 module.exports = {
 	title: 'AAAAysy',
 	base: '/note/',
@@ -7,16 +8,8 @@ module.exports = {
       lang: 'zh-CN'
     }
   },
-  plugins: [
-	["vuepress-plugin-nuggets-style-copy", {
-      copyText: "复制",
-      tip: {
-          content: "复制成功"
-      }
-   }]
-],
 	themeConfig: {
-		 
+		
 		lastUpdated: '最近更新',
 		nav: [{
 				text: 'Home',
@@ -60,6 +53,11 @@ module.exports = {
 				]
 			}
 		]
-	}
+	},
+  plugins: ['one-click-copy', {
+	copyMessage: '复制成功', // default is 'Copied successfully!'
+	toolTipMessage: '复制', // default is ''Copy to clipboard'
+  }]
 
 }
+  

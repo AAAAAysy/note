@@ -2,6 +2,11 @@ module.exports = {
 	title: 'AAAAysy',
 	base: '/note/',
 	description: '笔记',
+	locales: {
+    '/': {
+      lang: 'zh-CN'
+    }
+  },
 	themeConfig: {
 		 
 		lastUpdated: '最近更新',

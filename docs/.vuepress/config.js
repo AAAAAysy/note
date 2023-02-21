@@ -20,6 +20,15 @@ module.exports = {
 		],
 		sidebar: [
 			{
+				title: "Java",
+				collapsable: true,
+				children: [{
+						title: "读入优化",
+						path: "/Java/读入优化"
+					},
+				]
+			},
+			{
 				title: "环境配置",
 				collapsable: true,
 				children: [{

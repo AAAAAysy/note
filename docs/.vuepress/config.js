@@ -35,6 +35,15 @@ module.exports = {
 				]
 			},
 			{
+				title: "Linux",
+				collapsable: true,
+				children: [{
+					title: "基本服务",
+						path: "/Linux/linux"
+					},
+				]
+			},
+			{
 				title: "环境配置",
 				collapsable: true,
 				children: [{
